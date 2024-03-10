@@ -24,7 +24,7 @@ Discover instant enlightenment with #AskVarsity! Effortlessly retrieve informati
 ```bash
   cd askvarsity
 ```
-3. Install the required dependencies using pip:
+3. Install the required dependencies using pip command.
 
 4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
 
