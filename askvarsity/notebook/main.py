@@ -15,7 +15,7 @@ load_dotenv()  # take environment variables from .env (especially openai api key
 st.title("AskVarsity: Varsity Q&A Tool 📈")
 
 main_placeholder = st.empty()
-llm = OpenAI(temperature=0.9, max_tokens=500)
+llm = OpenAI(temperature=0.9, max_tokens=1000)
 
 file_path = "faiss_store_openai.pkl"
 
@@ -71,3 +71,4 @@ if os.path.exists(file_path):
             sources_list = sources.split("\n")  # Split the sources by newline
             for source in sources_list:
                 st.write(source)
+            st.subheader("Source Website - :blue[https://zerodha.com/varsity/]")
