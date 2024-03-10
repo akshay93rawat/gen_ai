@@ -1,0 +1,5 @@
+!pip install pillow-heif
+!pip install opencv-python
+!pip install pikepdf
+!pip install pdf2image
+!pip3 install pdfminer.six
